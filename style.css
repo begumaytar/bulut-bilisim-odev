@@ -1,0 +1,94 @@
+body {
+    background-color: #fce4ec; /* Açýk pastel pembe arka plan */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4a4a4a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.kart {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px; /* Yumuþak, modern köþeler */
+    box-shadow: 0 10px 25px rgba(233, 30, 99, 0.1); /* Çok hafif tatlý bir gölge */
+    max-width: 550px;
+    width: 100%;
+}
+
+.baslik-kismi {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px dashed #f48fb1; /* Kesik çizgili þirin bir ayraç */
+    padding-bottom: 20px;
+}
+
+h1 {
+    color: #d81b60; /* Koyu, þýk ve okunaklý bir pembe */
+    margin: 0 0 10px 0;
+    font-size: 28px;
+}
+
+h2 {
+    color: #880e4f;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+h3 {
+    color: #c2185b;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 0 0 15px 0;
+}
+
+.proje-listesi {
+    list-style-type: none;
+    padding: 0;
+}
+
+.proje-listesi li {
+    background-color: #fce4ec;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s; /* Üzerine gelince kayma efekti */
+}
+
+.proje-listesi li:hover {
+    transform: translateX(5px); /* Fareyle üstüne gelince saða doðru tatlýca kayar */
+    background-color: #f8bbd0;
+}
+
+.proje-listesi a {
+    display: block;
+    padding: 12px 15px;
+    text-decoration: none;
+    color: #880e4f;
+    font-weight: 500;
+}
+
+.ana-buton {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+    padding: 12px 20px;
+    background-color: #d81b60;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px; /* Tam yuvarlak hap þeklinde buton */
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.ana-buton:hover {
+    background-color: #ad1457;
+}
