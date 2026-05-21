@@ -16,4 +16,5 @@ Projeyi lokalde Docker üzerinden çalıştırmak için aşağıdaki komutlar ku
 `docker run -d -p 8080:80 webproje`
 
 ### Docker Çalışma Kanıtı
+
 ![Docker Çalışma Kanıtı](docker_kanit.png)
