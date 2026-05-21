@@ -1,16 +1,18 @@
-# Bulut Bilişim Dersi - Kişisel Web Sayfası
+# Bulut BiliÅŸim Dersi - KiÅŸisel Web SayfasÄ±
 
-Bu proje, Bulut Bilişim dersi kapsamında Docker kullanılarak çalıştırılan ve GitHub Pages üzerinden yayınlanan kişisel bir web sayfasıdır.
+Bu proje, Bulut BiliÅŸim dersi kapsamÄ±nda Docker kullanÄ±larak Ã§alÄ±ÅŸtÄ±rÄ±lan ve GitHub Pages Ã¼zerinden yayÄ±nlanan kiÅŸisel bir web sayfasÄ±dÄ±r.
 
-* **Öğrenci Adı:** Begüm Aytar
-* **Bölüm:** Bilgisayar Programcılığı
-* **Kullanılan Teknolojiler:** HTML, CSS, Docker, GitHub, GitHub Pages 
+* **Ã–ÄŸrenci AdÄ±:** BegÃ¼m Aytar
+* **BÃ¶lÃ¼m:** Bilgisayar ProgramcÄ±lÄ±ÄŸÄ±
+* **KullanÄ±lan Teknolojiler:** HTML, CSS, Docker, GitHub, GitHub Pages 
 
-## Docker Çalıştırma Komutları
-Projeyi lokalde Docker üzerinden çalıştırmak için aşağıdaki komutlar kullanılmıştır:
+## Docker Ã‡alÄ±ÅŸtÄ±rma KomutlarÄ±
+Projeyi lokalde Docker Ã¼zerinden Ã§alÄ±ÅŸtÄ±rmak iÃ§in aÅŸaÄŸÄ±daki komutlar kullanÄ±lmÄ±ÅŸtÄ±r:
 
-1. Docker image oluşturmak için:
+1. Docker image oluÅŸturmak iÃ§in:
 `docker build -t webproje .`
 
-2. Docker container'ı çalıştırmak için:
+2. Docker container'Ä± Ã§alÄ±ÅŸtÄ±rmak iÃ§in:
 `docker run -d -p 8080:80 webproje`
+
+![Docker Ã‡alÄ±ÅŸma KanÄ±tÄ±](docker-kanit.png)
